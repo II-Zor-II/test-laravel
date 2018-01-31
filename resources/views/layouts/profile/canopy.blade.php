@@ -7,7 +7,7 @@
 	<div class="col-md-12 canopy-menu-bar text-center">
 		 <div class="navbar-nav d-inline-flex justify-content-center flex-row">
 	      <button class="nav-item btn btn-outline-primary">Tweets</button>
-	      <button class="nav-item btn btn-outline-primary" id="showFollowingTweetsBtn">Following</button>
+	      <button class="nav-item btn btn-outline-primary" @if(auth()->id()==$userId) id="showFollowingTweetsBtn" @endif>Following</button>
 	      <a class="nav-item nav-link" href="#">Followers</a>
 	      <a class="nav-item nav-link" href="#">Likes</a>
 	      @if(auth()->id()!=$userId)
