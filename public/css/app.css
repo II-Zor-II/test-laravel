@@ -1,0 +1,224 @@
+/*
+Colors:
+	#A2F2FB
+*/
+
+html,
+body {
+  height: 100%;
+}
+
+/* Nav */
+
+.clear-both {
+  clear: both;
+}
+
+.navbar form {
+  float: right;
+}
+
+.nav-container {
+  background-color: white;
+}
+
+.nav-link-separator {
+  color: #1150A5;
+}
+
+.fa-twitter {
+  color: #1150A5;
+}
+
+.nav-container {
+  clear: both;
+  border-bottom: 2.5px #A2F2FB solid;
+}
+
+/* Welcome Content&Text */
+
+.welcome-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  background-color: #2F3031;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.welcome-text {
+  padding: 100px;
+}
+
+.welcome-text > h1 {
+  font-size: 3em;
+  color: white;
+}
+
+.welcome-text > h3 {
+  font-size: 1em;
+  color: white;
+}
+
+/* Forms */
+
+.forms {
+  padding: 20px;
+}
+
+.login-form a {
+  color: #A2F2FB;
+}
+
+.login-form,
+.signup-form {
+  margin-bottom: 10px;
+  padding: 25px;
+  border: 2px solid;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Canopy */
+
+.row.canopy {
+  margin-bottom: 75px;
+}
+
+.canopy div {
+  padding: 0px;
+  height: 60%;
+  width: 100%;
+}
+
+/* cover image */
+
+.cover-image {
+  background: url(http://via.placeholder.com/1200x400);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+  width: 100%;
+}
+
+/* canopy menu */
+
+.canopy-menu-bar {
+  text-align: center;
+}
+
+.canopy-menu-bar .nav-item,
+.stream-menu-bar .nav-item {
+  padding: 10px;
+  border: 1px rgba(103, 228, 211, 0.7) solid;
+}
+
+/* profile image */
+
+.profile-image > img {
+  z-index: 2;
+  position: absolute;
+  height: 150px;
+  width: 150;
+  border-radius: 50%;
+  margin-top: -100px;
+  margin-left: 100px;
+}
+
+/* left side bar */
+
+.left-sidebar {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+}
+
+.profile-desc.row {
+  margin-left: 10px;
+  border: solid 1px black;
+}
+
+.profile-desc div {
+  padding: 3px;
+}
+
+/* stream container */
+
+#stream-container,
+#following-stream-container {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.tweet-container {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  padding: 20px;
+  border: 1px black solid;
+}
+
+.tweet-user-image > img {
+  border-radius: 50%;
+}
+
+.tweet-image > img {
+  height: 100%;
+  width: 100%;
+  /*	display: block;
+	max-width:500px;
+	max-height:500px; */
+}
+
+/* right sidebar */
+
+.right-sidebar {
+  padding: 10px;
+}
+
+.signup-card {
+  border: solid 1px black;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* Tweet Form */
+
+.tweet-form-header {
+  margin-top: 10px;
+  margin-bottom: 5%;
+}
+
+.tweetform-container {
+  height: inherit;
+  width: 100%;
+}
+
+.tweet-form {
+  border-radius: 3%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 50%;
+  height: 50%;
+  border: 3px solid black;
+  padding: 0 10px 5% 10px;
+}
+
+/* error */
+
+.tweet-error {
+  float: right;
+  margin-right: 10px;
+  margin-top: -25%;
+  z-position: 2;
+  height: auto;
+}
+
